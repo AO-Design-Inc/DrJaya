@@ -1,0 +1,79 @@
+html{
+    font-family: 'Vollkorn', serif;
+    font-family: 'Roboto', sans-serif;
+    max-width: 80%;
+    font-size: 28px;
+    margin: auto;
+}
+
+/* Means everything in header displays as inline block. */
+header *{
+    display: inline-block;
+}
+
+header{
+    position: relative;
+}
+
+/* Controls Dr.Jayalakshmi Title */
+header h1{
+    margin: 0;
+    font-size: 56px;
+    font-family: 'Vollkorn', serif;
+}
+
+
+header .menu_option{
+    float: right;
+    margin-right: 1em;
+    margin-top: 0.5em;  
+    margin-bottom: auto;
+    text-decoration: underline;
+}
+
+#main_img{
+    width : 40%;
+    display: inline-flex;
+}
+
+
+
+.blurb{
+    float: right;
+    width: 50%;
+    margin-top: 1em;
+    height: 8em;
+    overflow: scroll;
+}
+
+#address_block{
+    margin-bottom: 3em
+}
+
+.address{
+    width: 40%;
+    display: inline-block;
+    margin: 4%;
+    height: 5em;
+    box-align: right;
+}
+
+
+#pitch{
+    background-image: url('Files/Pattern02.svg');
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    background-size: 15%;
+    background-clip: border-box;
+    font-size: 56px;
+    text-align: center;
+}
+
+hr{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    height: 1px;
+    background-color: rgb(0, 0, 0)
+}
