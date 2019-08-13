@@ -88,6 +88,8 @@ header .menu_option a:hover{
 .background_deco{
     position: absolute;
     z-index: -1;
+    transform-origin: 0;
+    transform: translateZ(3px);
 }
 
 #pattern_deco {
