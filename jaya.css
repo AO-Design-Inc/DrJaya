@@ -128,8 +128,7 @@ hr{
     margin-right: auto;
     margin-top: 1em;
     height: 1px;
-    background-color: rgb(0, 0, 0)
-    anima
+    background-color: rgb(0, 0, 0);
 }
 
 form .gen-inputs{
@@ -168,7 +167,3 @@ form{
     margin-left: auto;
     margin-right: auto;
    }
-=======
-    width: 100%;  /* The width is the width of the web page */
-   }
->>>>>>> 796fad3cfa8246f14ebb02749faaa2a109a0561f
