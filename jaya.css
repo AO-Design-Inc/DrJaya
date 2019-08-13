@@ -127,6 +127,7 @@ hr{
     margin-top: 1em;
     height: 1px;
     background-color: rgb(0, 0, 0)
+    anima
 }
 
 form .gen-inputs{
@@ -161,5 +162,7 @@ form{
 #map {
     margin-top: 50px;
     height: 400px;  /* The height is 400 pixels */
-    width: 100%;  /* The width is the width of the web page */
+    width: 90%;  /* The width is the width of the web page */
+    margin-left: auto;
+    margin-right: auto;
    }

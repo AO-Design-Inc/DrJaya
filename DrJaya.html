@@ -3,6 +3,8 @@
     <head>
         <title>Jaya</title>
         <link rel="stylesheet" href="jaya.css">
+        <link rel="stylesheet" href="node_modules/animate.css/animate.min.css">
+
         <!--Gives link to roboto, vollkorn fonts-->
         <style>
             @import url('https://fonts.googleapis.com/css?family=Roboto:400,700|Vollkorn:400,400i&display=swap');
@@ -18,7 +20,7 @@
     </head>
     <body>
 
-        <header> <h1><i>Dr.</i> Jayalakshmi T.K</h1>
+        <header class = "animated fadeIn"> <h1><i>Dr.</i> Jayalakshmi T.K</h1>
             <div class="menu_option"><a href = "#Contact">CONTACT</a></div>
             <div class="menu_option">FAQ</div>
 
@@ -68,7 +70,7 @@
 
         <a name = "Contact"></a>
 
-        <form action='\form_handle' method=POST>
+        <form class = "animated fadeIn" action='\form_handle' method=POST>
             <div class='gen-inputs'>
                 <input type="text" id="name" name="user_name" placeholder="Name">
             </div>
