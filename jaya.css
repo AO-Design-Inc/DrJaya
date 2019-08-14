@@ -88,8 +88,6 @@ header .menu_option a:hover{
 .background_deco{
     position: absolute;
     z-index: -1;
-    transform-origin: 0;
-    transform: translateZ(3px);
 }
 
 #pattern_deco {
@@ -166,4 +164,5 @@ form{
     width: 90%;  /* The width is the width of the web page */
     margin-left: auto;
     margin-right: auto;
+    background-color: grey;
    }
