@@ -43,6 +43,9 @@ header .menu_option a:hover{
 }
 
 
+#image_block{
+    margin-bottom: 1em;
+}
 
 #main_img{
     position: relative;
