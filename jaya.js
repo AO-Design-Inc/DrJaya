@@ -1,6 +1,5 @@
 console.log("Hello from JavaScript!");
 
-let map_elem = document.getElementById('map');
 let address2 = document.getElementById('address2');
 let address1 = document.getElementById('address1');
 
@@ -17,7 +16,7 @@ function initMap() {
 function change_to_clinic(){
     //location of clinics
     var clinic = {lat: 19.048887, lng: 72.914030};
-    var map = new google.maps.Map(map_elem, {zoom:16, center: clinic});
+    var map = new google.maps.Map(document.getElementById('map'), {zoom:16, center: clinic});
     var marker = new google.maps.Marker({position: clinic, map: map})
 }
 
