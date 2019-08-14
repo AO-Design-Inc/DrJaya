@@ -73,6 +73,9 @@ header .menu_option a:hover{
     overflow: scroll;
 }
 
+.address:hover{
+    text-decoration: underline;
+}
 
 #pitch{
     font-size: 56px;
