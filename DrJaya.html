@@ -13,11 +13,6 @@
         <script async defer
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBf-yC3xbR9TAYC1E6JoHbNoH3tpWkPIu8&callback=initMap">
         </script>
-
-        <script async defer
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBf-yC3xbR9TAYC1E6JoHbNoH3tpWkPIu8&callback=change_to_clinic">
-        </script>
-
                     
         <script defer src="jaya.js"></script>
 
@@ -30,11 +25,30 @@
 
         </header>
 
-        <div id='image_block'>
-            <img src = 'https://upload.wikimedia.org/wikipedia/en/9/9e/Flag_of_Japan.svg' alt='flag of japan' id='main_img'>
+        <div id='image_block' class = "animated fadeIn">
+            <img src = 'Files/DrJaya.png' alt='Dr. Jayalakshmi' id='main_img'>
+
+            <span class='dot' id="dot1"></span>
+            <span class='dot' id="dot2"></span>
+            <div class='ring' id="ring1"><svg xmlns="http://www.w3.org/2000/svg" width="180" height="180" viewBox="0 0 180 180">
+                <g id="Ellipse_26" data-name="Ellipse 26" fill="none" stroke="#7cffd7" stroke-width="50">
+                  <circle cx="90" cy="90" r="90" stroke="none"/>
+                  <circle cx="90" cy="90" r="65" fill="none"/>
+                </g>
+              </svg>
+            </div>
+            <div class='ring' id='ring2'><svg xmlns="http://www.w3.org/2000/svg" width="104" height="104" viewBox="0 0 104 104">
+                <g id="Ellipse_28" data-name="Ellipse 28" fill="none" stroke="#7cffd7" stroke-width="25">
+                  <circle cx="52" cy="52" r="52" stroke="none"/>
+                  <circle cx="52" cy="52" r="39.5" fill="none"/>
+                </g>
+              </svg>
+            </div>
+            
+
 
             <div class='blurb'>
-                    <div id='blurb_sec_1'>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                    <div id='blurb_sec_1'>I am a chest physician based in Mumbai, India. I am available for consultancy at Apollo Hospitals, Vashi; as well as Jai Clinic, Govandi. Addresses for both are given below.
                     </div>
             
 
@@ -43,10 +57,15 @@
                 </div>
         </div>
 
-        <div id="address_block">
-            <div class='address' id='address1'>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"s
+        <div id="address_block" class="animated fadeIn">
+            <div class='address' id='address1'><b>Apollo Hospitals - Navi Mumbai</b> <br>
+            Plot #13, Parsik Hill Road, Off Uran Road,Sector-23, CBD Belapur, Navi Mumbai - 400614. <br>
+            <b>10 A.M to 4 P.M Monday to Saturday</b><br>
+            &nbsp;
             </div>
-            <div class='address' id='address2'>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+            <div class='address' id='address2'><b>Jai Clinic</b> <br>
+            Flat No. 4, Ground Floor, Aastha-2, Near ICICI Bank, Opp. Lakme Co., Govandi Station Road, Deonar, Govandi (E). Mumbai - 400088.<br>
+            <b>6 P.M to 7 P.M Monday-Wednesday-Friday</b>
             </div>
             <div id = "map"></div>
         </div>
@@ -54,8 +73,8 @@
         <hr>
 
 
-        <div id="pitch">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit
+        <div id="pitch" class="animated fadeIn">
+            Compassionate care for all.
         </div>
 
         <div id = "pitch_deco" class = "background_deco"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 608 608"><defs><style>.cls-1{fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:5px;}</style></defs><title>Pattern 02</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><circle class="cls-1" cx="304" cy="304" r="75"/><path class="cls-1" d="M307.16,62.5l26-45a10,10,0,0,0-8.66-15h-52a10,10,0,0,0-8.66,15l26,45A10,10,0,0,0,307.16,62.5Z"/><path class="cls-1" d="M135.47,131,122,80.81a10,10,0,0,0-16.73-4.48L68.55,113.07A10,10,0,0,0,73,129.8l50.19,13.45A10,10,0,0,0,135.47,131Z"/><path class="cls-1" d="M62.5,300.84l-45-26a10,10,0,0,0-15,8.66v52a10,10,0,0,0,15,8.66l45-26A10,10,0,0,0,62.5,300.84Z"/><path class="cls-1" d="M131,472.53,80.81,486a10,10,0,0,0-4.48,16.73l36.74,36.74A10,10,0,0,0,129.8,535l13.45-50.19A10,10,0,0,0,131,472.53Z"/><path class="cls-1" d="M300.84,545.5l-26,45a10,10,0,0,0,8.66,15h52a10,10,0,0,0,8.66-15l-26-45A10,10,0,0,0,300.84,545.5Z"/><path class="cls-1" d="M472.53,477,486,527.19a10,10,0,0,0,16.73,4.48l36.74-36.74A10,10,0,0,0,535,478.2l-50.19-13.45A10,10,0,0,0,472.53,477Z"/><path class="cls-1" d="M545.5,307.16l45,26a10,10,0,0,0,15-8.66v-52a10,10,0,0,0-15-8.66l-45,26A10,10,0,0,0,545.5,307.16Z"/><path class="cls-1" d="M477,135.47,527.19,122a10,10,0,0,0,4.48-16.73L494.93,68.55A10,10,0,0,0,478.2,73l-13.45,50.19A10,10,0,0,0,477,135.47Z"/><path class="cls-1" d="M233.86,123.7l4.24-32.95a10,10,0,0,0-13.77-10.51L193.67,93a10,10,0,0,0-2.21,17.18l26.41,20.15A10,10,0,0,0,233.86,123.7Z"/><path class="cls-1" d="M127.61,225.81l-20.29-26.3a10,10,0,0,0-17.17,2.31L77.52,232.55a10,10,0,0,0,10.59,13.71L121,241.83A10,10,0,0,0,127.61,225.81Z"/><path class="cls-1" d="M124.7,373.14,91.75,368.9a10,10,0,0,0-10.51,13.77L94,413.33a10,10,0,0,0,17.18,2.21l20.15-26.41A10,10,0,0,0,124.7,373.14Z"/><path class="cls-1" d="M226.81,479.39l-26.3,20.29a10,10,0,0,0,2.31,17.17l30.73,12.63a10,10,0,0,0,13.71-10.59L242.83,486A10,10,0,0,0,226.81,479.39Z"/><path class="cls-1" d="M374.14,482.3l-4.24,32.95a10,10,0,0,0,13.77,10.51L414.33,513a10,10,0,0,0,2.21-17.18l-26.41-20.15A10,10,0,0,0,374.14,482.3Z"/><path class="cls-1" d="M480.39,380.19l20.29,26.3a10,10,0,0,0,17.17-2.31l12.63-30.73a10,10,0,0,0-10.59-13.71L487,364.17A10,10,0,0,0,480.39,380.19Z"/><path class="cls-1" d="M483.3,232.86l32.95,4.24a10,10,0,0,0,10.51-13.77L514,192.67a10,10,0,0,0-17.18-2.21l-20.15,26.41A10,10,0,0,0,483.3,232.86Z"/><path class="cls-1" d="M381.19,126.61l26.3-20.29a10,10,0,0,0-2.31-17.17L374.45,76.52a10,10,0,0,0-13.71,10.59L365.17,120A10,10,0,0,0,381.19,126.61Z"/><path class="cls-1" d="M304,93c0,11-10,11-10,22s10,11,10,22-10,11-10,22,10,11,10,22-10,11-10,22"/><path class="cls-1" d="M154.8,154.8c7.78,7.78.7,14.85,8.48,22.62s14.85.71,22.63,8.49.7,14.85,8.48,22.63,14.85.7,22.63,8.48.71,14.85,8.49,22.63"/><path class="cls-1" d="M93,304c11,0,11,10,22,10s11-10,22-10,11,10,22,10,11-10,22-10,11,10,22,10"/><path class="cls-1" d="M154.8,453.2c7.78-7.78,14.85-.7,22.62-8.48s.71-14.85,8.49-22.63,14.85-.7,22.63-8.48.7-14.85,8.48-22.63,14.85-.71,22.63-8.49"/><path class="cls-1" d="M304,515c0-11,10-11,10-22s-10-11-10-22,10-11,10-22-10-11-10-22,10-11,10-22"/><path class="cls-1" d="M453.2,453.2c-7.78-7.78-.7-14.85-8.48-22.62s-14.85-.71-22.63-8.49-.7-14.85-8.48-22.63-14.85-.7-22.63-8.48-.71-14.85-8.49-22.63"/><path class="cls-1" d="M515,304c-11,0-11-10-22-10s-11,10-22,10-11-10-22-10-11,10-22,10-11-10-22-10"/><path class="cls-1" d="M453.2,154.8c-7.78,7.78-14.85.7-22.62,8.48s-.71,14.85-8.49,22.63-14.85.7-22.63,8.48-.7,14.85-8.48,22.63-14.85.71-22.63,8.49"/></g></g></svg>
@@ -72,9 +91,40 @@
 
         <hr>
 
+        <div id="accomplishments_box">
+            <div id="accomplishment_head"><i>Accomplishments</i></div>
+
+            <div>
+                <span class = "date">1993</span>
+                <hr>
+                <span>MBBS from KEM Hospital &#38; GS Seth Medical College</span>
+            </div>
+
+            <div>
+                <span class = "date">1996</span>
+                <hr>
+                <span>MD in TB &#38; Chest Diseases from BYL Nair Hospital &#38; Topiwala National Medical College</span>
+            </div>
+            <div>
+                <span class = "date">1995</span>
+                <hr>
+                <span>DETRD from College of Physicians &#38; Surgeons</span>
+            </div>
+            <div>
+                <span class = "date">2004</span>
+                <hr>
+                <span>Fellowship of American College of Chest Physicians</span>
+            </div>
+            <div>
+                <span class = "date">2013</span>
+                <hr>
+                <span>European Diplomate in Adult Respiratory Medicine from ERS</span>
+            </div>
+        </div>
+
         <a name = "Contact"></a>
 
-        <form class = "animated fadeIn" action='\form_handle' method=POST>
+        <form class = "animated fadeIn" action="https://formspree.io/abhicherath@gmail.com" method=POST>
             <div class='gen-inputs'>
                 <input type="text" id="name" name="user_name" placeholder="Name">
             </div>
@@ -88,7 +138,7 @@
                 <textarea id="msg" name="user_message"></textarea> 
             </div>
             <div class="button">
-                <button type="submit">Send your message</button>
+                <button type="submit"><img src='Files/sendSymbol.svg'> </button>
             </div>
         </form>
 
