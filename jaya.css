@@ -44,7 +44,7 @@ header .menu_option a:hover{
 
 
 #image_block{
-    margin-bottom: 1em;
+    margin-bottom: 4em;
 }
 
 #main_img{
@@ -73,10 +73,10 @@ header .menu_option a:hover{
 
 #image_block #dot2{
     z-index: -1;
-    width:180px;
-    height:180px;
-    left: 530px;
-    top: 420px;
+    width:6em;
+    height:6em;
+    left: 19em;
+    top: 15em;
 }
 
 #image_block .ring{
@@ -85,7 +85,7 @@ header .menu_option a:hover{
 }
 
 #image_block #ring1{
-    width : 100px;
+    width : 3em;
     transform: translate(30px,-160px);
 }
 
@@ -95,7 +95,7 @@ header .menu_option a:hover{
 }
 
 #image_block #ring2{
-    width : 50px;
+    width : 1.5em;
     transform: translate(110px,-70px);
 }
 
