@@ -198,9 +198,6 @@ hr{
     margin: 2em auto;
 }
 
-#accomplishments_box div{
-    font-weight: 500;
-}
 
 #accomplishment_head{
     font-family: 'Vollkorn', serif;
@@ -209,7 +206,9 @@ hr{
     text-decoration: underline;
     text-decoration-color:  #7CFFD7;
 }
+
 #accomplishments_box div {
+    font-weight: 500;
     display: block;
     margin-bottom: 2em;
 }
@@ -234,6 +233,50 @@ hr{
     margin-right: 20px;
     margin-left: 20px;
 }
+
+#work_exp_box{
+    width: 70%;
+    margin: 2em auto;
+}
+
+#work_exp_head{
+    font-family: 'Vollkorn', serif;
+    text-align: center;
+    font-size: 20px;
+    text-decoration: underline;
+    text-decoration-color:  #7CFFD7;
+}
+
+#work_exp_box div {
+    font-weight: 500;
+    display: block;
+    margin-bottom: 2em;
+}
+
+#work_exp_box div span{
+    display: inline-block;
+    max-width: 80%;
+    text-align: right;
+}
+
+#work_exp_box div .date{
+    float: right;
+    height: 100%;
+    padding-top: 10px;
+    font-weight: initial;
+    font-size: initial;
+    text-align: unset;
+}
+
+#work_exp_box div hr{
+    width: 5%;
+    float: right;
+    height: 1px;
+    margin-top: 17px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
 
 form .gen-inputs{
     margin: 0.1em;
