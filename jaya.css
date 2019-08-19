@@ -328,9 +328,9 @@ button img{
     background-color: grey;
    }
 
-#bottom_bar{
+footer{
     width: 100vw;
-    background-color: #7CFFD7;
+    background-color: #00D392;
     height: 4rem;
     margin-left: calc(-50vw + 50%);
     padding: 0;
