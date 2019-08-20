@@ -319,6 +319,19 @@ button img{
     height: 100px;
 }
 
+#video_sec{
+    width: 100vw;
+    background-color: #00D392;
+    margin-left: calc(-50vw + 50%);
+    padding: 1rem 0;
+}
+
+#player{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
 #map {
     margin-top: 50px;
     height: 400px;  /* The height is 400 pixels */
@@ -327,6 +340,7 @@ button img{
     margin-right: auto;
     background-color: grey;
    }
+
 
 footer{
     width: 100vw;
