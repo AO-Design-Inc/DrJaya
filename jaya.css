@@ -332,6 +332,14 @@ button img{
     display: block;
 }
 
+#skills{
+    font-size: 10rem;
+    overflow-x: hidden;
+    height: 11rem;
+    width: 125vw;
+    margin-left: calc(-50vw + 35%);
+}
+
 #map {
     margin-top: 50px;
     height: 400px;  /* The height is 400 pixels */

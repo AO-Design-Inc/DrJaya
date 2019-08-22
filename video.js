@@ -36,7 +36,7 @@ function onYouTubeIframeAPIReady() {
     width: (getWidth()-0.3*getWidth()),
     videoId: 'VfKLlhHmBWA',
     events: {
-      'onReady': onPlayerReady,
+        //'onReady': onPlayerReady,
       'onStateChange': onPlayerStateChange
     }
   });
