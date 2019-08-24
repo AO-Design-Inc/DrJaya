@@ -19,6 +19,10 @@ html{
     text-decoration-color:  #7CFFD7;
 }
 
+header div{
+    font-size: 28px;
+}
+
 .question{
     font-weight: bold;
     margin-bottom: 1em;
