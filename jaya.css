@@ -1,7 +1,7 @@
 html{
     font-family: 'Vollkorn', serif;
     font-family: 'Roboto', sans-serif;
-    max-width: 960px;
+    max-width: 92vw;
     font-size: 28px;
     margin: 0 auto;
 }
@@ -13,7 +13,7 @@ header *{
 
 header{
     margin-top: 75px;
-    margin-bottom: 100px;
+    margin-bottom: 1.5em;
     position: relative;
 }
 
@@ -45,11 +45,13 @@ header .menu_option a:hover{
 
 #image_block{
     margin-bottom: 4em;
+    width: 90%;
+    margin: auto auto;
 }
 
 #main_img{
     position: relative;
-    width : 50%;
+    width : 60%;
     scale: 300;
     display: inline-flex;
     transform: translate(0,0);
@@ -65,18 +67,16 @@ header .menu_option a:hover{
 }
 
 #image_block #dot1{
-    width:160px;
-    height:160px;
-    left: 220px;
-    top: 230px;
+    width:10em;
+    height:10em;
+    transform: translate(-660px,50px);
 }
 
 #image_block #dot2{
     z-index: -1;
-    width:6em;
-    height:6em;
-    left: 19em;
-    top: 15em;
+    width:8em;
+    height:8em;
+    transform: translate(-200px,350px)
 }
 
 #image_block .ring{
@@ -85,8 +85,8 @@ header .menu_option a:hover{
 }
 
 #image_block #ring1{
-    width : 3em;
-    transform: translate(30px,-160px);
+    width : 7em;
+    transform: translate(0px,-230px);
 }
 
 #image_block #ring1 svg{
@@ -95,8 +95,8 @@ header .menu_option a:hover{
 }
 
 #image_block #ring2{
-    width : 1.5em;
-    transform: translate(110px,-70px);
+    width : 3.5em;
+    transform: translate(200px,-70px);
 }
 
 #image_block #ring2 svg{
@@ -107,10 +107,13 @@ header .menu_option a:hover{
 
 .blurb{
     float: right;
-    width: 50%;
+    width: 40%;
     margin-top: 1em;
     height: 8em;
     z-index: 1;
+    box-sizing: border-box;
+    font-size: 32px;
+    transform: translate(-4em,0px);
 }
 
 #blurb_sec_1{
@@ -123,19 +126,27 @@ header .menu_option a:hover{
 }
 
 #address_block{
+    margin-top: 5em;
     margin-bottom: 2em;
 }
 
 .address{
     width: 40%;
     display: inline-block;
-    margin: 4%;
+    margin: 2%;
     height: 8em;
     box-align: right;
+    padding: 2%
 }
 
 .address:hover{
     text-decoration: underline;
+    background-color: #7CFFD7;
+
+    -webkit-transition: background 300ms ease-in 200ms; /* property duration timing-function delay */
+    -moz-transition: background 300ms ease-in 200ms;
+    -o-transition: background 300ms ease-in 200ms;
+    transition: background 300ms ease-in 200ms;
 }
 
 #pitch{
@@ -165,8 +176,8 @@ header .menu_option a:hover{
     top: 6em;
     left: 0;
     right: 0;
-    width: 1000px;
-    opacity: unset;
+    width: 75%;
+    opacity: 0;
     margin: 0 auto;
 }
 
@@ -353,16 +364,15 @@ button img{
 footer{
     width: 100vw;
     background-color: #00D392;
-    height: 4rem;
+    height: 100px;
     margin-left: calc(-50vw + 50%);
     padding: 0;
     margin-top: 25%;
     border-bottom: 0;
 }
 
-#bottom_bar div{
+footer div{
     font-size: 14px;
     text-align: center;
-    height: 100%;
-    padding-top: 3em;
+    padding-top: 36px;
 }
