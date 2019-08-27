@@ -32,8 +32,9 @@
         <div id='image_block' class = "animated fadeIn">
             <img src = 'Files/DrJaya.png' alt='Dr. Jayalakshmi' id='main_img'>
 
-            <span class='dot' id="dot1"></span>
-            <span class='dot' id="dot2"></span>
+            <div id="dot1" class="dot"><img src = 'Files/Ellipse1.svg'></img></div>
+            <div id='dot2' class='dot'><img src = 'Files/Ellipse1.svg'></img></div>
+
             <div class='ring' id="ring1"><svg xmlns="http://www.w3.org/2000/svg" width="180" height="180" viewBox="0 0 180 180">
                 <g id="Ellipse_26" data-name="Ellipse 26" fill="none" stroke="#7cffd7" stroke-width="50">
                   <circle cx="90" cy="90" r="90" stroke="none"/>
@@ -52,13 +53,16 @@
 
 
             <div class='blurb'>
-                    <div id='blurb_sec_1'>I am a chest physician based in Mumbai, India. I am available for consultancy at Apollo Hospitals, Vashi; as well as Jai Clinic, Govandi.
-                    </div>
-            
 
-                    <div id='blurb_sec_2'><b>Any questions? Check the FAQ</b>
-                    </div>
+                <img src="Files/Speech_Bubble.svg" id="speech_bubble">
+
+                <div id='blurb_sec_1'>I am a chest physician based in Mumbai, India. I am available for consultancy at Apollo Hospitals, Vashi; as well as Jai Clinic, Govandi.
                 </div>
+        
+
+                <div id='blurb_sec_2'><b>Any questions? Check the FAQ</b>
+                </div>
+            </div>
         </div>
 
         <div id="address_block" class="animated fadeIn">
@@ -180,7 +184,8 @@
             </div>
 
 
-
+        <div id="form_container">
+        <a name = "Contact"></a>
         <form class = "animated fadeIn" action="https://formspree.io/docjayalaksmi@gmail.com" method=POST>
             <div class='gen-inputs'>
                 <input type="text" id="name" name="user_name" placeholder="Name">
@@ -198,7 +203,7 @@
                 <button type="submit"><img src='Files/sendSymbol.svg'> </button>
             </div>
         </form>
-        <a name = "Contact"></a>
+        </div>
 
 
         <footer id='bottom_bar'>

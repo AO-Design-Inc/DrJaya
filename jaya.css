@@ -12,7 +12,7 @@ header *{
 }
 
 header{
-    margin-top: 75px;
+    margin-top: 1em;
     margin-bottom: 1.5em;
     position: relative;
 }
@@ -56,32 +56,33 @@ header .menu_option a:hover{
     display: inline-flex;
     transform: translate(0,0);
     transform: scale(1.25,1.25);
-    z-index: -2;
+    z-index: 1;
 }
 
 #image_block .dot{
     position: absolute;
     z-index: -3;
-    background: #7CFFD7;
-    border-radius: 50%;
 }
 
 #image_block #dot1{
     width:10em;
-    height:10em;
-    transform: translate(-660px,50px);
+    transform: translate(1.5em,-19em)
 }
 
 #image_block #dot2{
-    z-index: -1;
+    position: absolute;
+    z-index: 2;
     width:8em;
-    height:8em;
-    transform: translate(-200px,350px)
+    transform: translate(18em,-7em)
+}
+
+#image_block #dot2 img{
+    width:100%;
 }
 
 #image_block .ring{
     position: absolute;
-    z-index: -1;
+    z-index: 1;
 }
 
 #image_block #ring1{
@@ -114,6 +115,12 @@ header .menu_option a:hover{
     box-sizing: border-box;
     font-size: 32px;
     transform: translate(-4em,0px);
+}
+
+.blurb #speech_bubble{
+    position: absolute ;
+    z-index: -10;
+    transform: scale(1.4) translate(-0.8em,0em);
 }
 
 #blurb_sec_1{
@@ -205,7 +212,7 @@ hr{
 }
 
 #accomplishments_box{
-    width: 70%;
+    width: 50%;
     margin: 2em auto;
 }
 
@@ -246,7 +253,7 @@ hr{
 }
 
 #work_exp_box{
-    width: 70%;
+    width: 50%;
     margin: 2em auto;
 }
 
@@ -289,6 +296,10 @@ hr{
 }
 
 
+#form_container{
+    width: 80%;
+    margin: 0 auto;
+}
 form .gen-inputs{
     margin: 0.1em;
     border-bottom: 1px solid black;
