@@ -157,6 +157,7 @@ header .menu_option a:hover{
 }
 
 
+
 #map {
     margin-top: 50px;
     height: 400px;  /* The height is 400 pixels */
@@ -165,7 +166,9 @@ header .menu_option a:hover{
     margin-right: auto;
     background-color: grey;
     display: block;
+    margin-bottom: 2em;
    }
+
 
 #pitch{
     font-size: 56px;
