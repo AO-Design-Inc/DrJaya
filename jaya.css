@@ -135,11 +135,11 @@ header .menu_option a:hover{
 #address_block{
     margin-top: 5em;
     margin-bottom: 2em;
+    display: flex;
 }
 
 .address{
     width: 40%;
-    display: inline-block;
     margin: 2%;
     height: 8em;
     box-align: right;
@@ -155,6 +155,17 @@ header .menu_option a:hover{
     -o-transition: background 300ms ease-in 200ms;
     transition: background 300ms ease-in 200ms;
 }
+
+
+#map {
+    margin-top: 50px;
+    height: 400px;  /* The height is 400 pixels */
+    width: 90%;  /* The width is the width of the web page */
+    margin-left: auto;
+    margin-right: auto;
+    background-color: grey;
+    display: block;
+   }
 
 #pitch{
     font-size: 56px;
@@ -362,14 +373,6 @@ button img{
     margin-left: calc(-50vw + 35%);
 }
 
-#map {
-    margin-top: 50px;
-    height: 400px;  /* The height is 400 pixels */
-    width: 90%;  /* The width is the width of the web page */
-    margin-left: auto;
-    margin-right: auto;
-    background-color: grey;
-   }
 
 
 footer{
