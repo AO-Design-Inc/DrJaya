@@ -65,20 +65,25 @@ header .menu_option a:hover{
 }
 
 #image_block #dot1{
-    width:10em;
-    transform: translate(1.5em,-19em)
+    width: 22%;
+    transform: translate(12.5%,-165%)
 }
 
 #image_block #dot2{
     position: absolute;
     z-index: 2;
-    width:8em;
-    transform: translate(18em,-7em)
+    width:16%;
+    transform: translate(220%,-80%)
 }
 
 #image_block #dot2 img{
     width:100%;
 }
+
+#image_block #dot1 img{
+    width:100%;
+}
+
 
 #image_block .ring{
     position: absolute;
@@ -86,8 +91,8 @@ header .menu_option a:hover{
 }
 
 #image_block #ring1{
-    width : 7em;
-    transform: translate(0px,-230px);
+    width : 13.5%;
+    transform: translate(0%,-115%);
 }
 
 #image_block #ring1 svg{
@@ -96,8 +101,8 @@ header .menu_option a:hover{
 }
 
 #image_block #ring2{
-    width : 3.5em;
-    transform: translate(200px,-70px);
+    width : 6.5%;
+    transform: translate(215%,-67.5%);
 }
 
 #image_block #ring2 svg{
@@ -114,13 +119,13 @@ header .menu_option a:hover{
     z-index: 1;
     box-sizing: border-box;
     font-size: 32px;
-    transform: translate(-4em,0px);
+    transform: translate(-30%,0px);
 }
 
 .blurb #speech_bubble{
     position: absolute ;
     z-index: -10;
-    transform: scale(1.4) translate(-0.8em,0em);
+    transform: scale(1.4) translate(-7%,0em);
 }
 
 #blurb_sec_1{
