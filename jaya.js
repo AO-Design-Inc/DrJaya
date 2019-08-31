@@ -22,3 +22,26 @@ function change_to_clinic(){
 
 address2.addEventListener("click", change_to_clinic);
 address1.addEventListener("click", initMap);
+
+
+$.fn.isInViewport = function() {
+    var elementTop = $(this).offset().top;
+    var elementBottom = elementTop + $(this).outerHeight();
+    var viewportTop = $(window).scrollTop();
+    var viewportBottom = viewportTop + $(window).height();
+    return elementBottom > viewportTop && elementTop < viewportBottom;
+    };
+
+$(window).on('resize scroll', function() {
+    $('.animation-element').each(function(){
+        if($(this).isInViewport()){
+            $("#accomplishments_box").transition({ x: '+=100vw' }, 5000);
+            $(this).removeClass('animation-element');
+        }
+        });
+});
+
+
+$( document ).ready(function() {
+    $("#accomplishments_box").css({ x: '-=100vw' }); 
+});

@@ -1,3 +1,5 @@
+
+  
 html{
     font-family: 'Vollkorn', serif;
     font-family: 'Roboto', sans-serif;
@@ -66,14 +68,14 @@ header .menu_option a:hover{
 
 #image_block #dot1{
     width: 22%;
-    transform: translate(12.5%,-165%)
+    transform: translate(10.5%,-165%)
 }
 
 #image_block #dot2{
     position: absolute;
     z-index: 2;
-    width:16%;
-    transform: translate(220%,-80%)
+    width:15.5%;
+    transform: translate(228%,-86%)
 }
 
 #image_block #dot2 img{

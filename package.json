@@ -15,6 +15,8 @@
     "webpack-cli": "^3.3.6"
   },
   "dependencies": {
-    "animate.css": "^3.7.2"
+    "animate.css": "^3.7.2",
+    "jquery": "^3.4.1",
+    "jquery.transit": "^0.9.12"
   }
 }
