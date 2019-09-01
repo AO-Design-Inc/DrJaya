@@ -51,7 +51,7 @@ function animation_selector(anim_elem){
 
 
 
-    if(anim_elem.attr('id')==='work_exp_box'){
+    if(anim_elem.hasClass("workbox")){
         anim_elem.transition({x:'-=25vw', opacity : 1}, 2500)
         return 0;
     }
@@ -62,5 +62,5 @@ function animation_selector(anim_elem){
 
 $( document ).ready(function() {
     $(".accomplishment").each(function(){$(this).css({ x: '-=25vw', opacity : 0 })})
-    $("#work_exp_box").css({ x: '+=25vw', opacity : 0 }); 
+    $(".workbox").each(function(){$(this).css({ x: '+=25vw', opacity : 0 })}); 
 });
