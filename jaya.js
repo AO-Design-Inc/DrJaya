@@ -45,12 +45,12 @@ $(window).on('resize scroll', function() {
 function animation_selector(anim_elem){
 
     if(anim_elem.attr('id')==='accomplishments_box'){
-        anim_elem.transition({ x: '+=75vw', opacity : 1 }, 5000);
+        anim_elem.transition({ x: '+=25vw', opacity : 1 }, 5000);
         return 0;
     }
 
     if(anim_elem.attr('id')==='work_exp_box'){
-        anim_elem.transition({x:'-=75vw', opacity : 1}, 5000)
+        anim_elem.transition({x:'-=25vw', opacity : 1}, 5000)
         return 0;
     }
 
@@ -59,6 +59,6 @@ function animation_selector(anim_elem){
 
 
 $( document ).ready(function() {
-    $("#accomplishments_box").css({ x: '-=75vw', opacity : 0 });
-    $("#work_exp_box").css({ x: '+=75vw', opacity : 0 }); 
+    $("#accomplishments_box").css({ x: '-=25vw', opacity : 0 });
+    $("#work_exp_box").css({ x: '+=25vw', opacity : 0 }); 
 });
