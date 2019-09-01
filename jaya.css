@@ -8,6 +8,9 @@ html{
     margin: 0 auto;
 }
 
+body{
+    margin: 0;
+}
 /* Means everything in header displays as inline block. */
 header *{
     display: inline-block;
