@@ -10,6 +10,7 @@ html{
 
 body{
     margin: 0;
+    overflow-x: hidden;
 }
 /* Means everything in header displays as inline block. */
 header *{
