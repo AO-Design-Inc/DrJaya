@@ -35,13 +35,30 @@ $.fn.isInViewport = function() {
 $(window).on('resize scroll', function() {
     $('.animation-element').each(function(){
         if($(this).isInViewport()){
-            $("#accomplishments_box").transition({ x: '+=100vw' }, 5000);
+            animation_selector($(this));
             $(this).removeClass('animation-element');
         }
         });
 });
 
 
+function animation_selector(anim_elem){
+
+    if(anim_elem.attr('id')==='accomplishments_box'){
+        anim_elem.transition({ x: '+=75vw', opacity : 1 }, 5000);
+        return 0;
+    }
+
+    if(anim_elem.attr('id')==='work_exp_box'){
+        anim_elem.transition({x:'-=75vw', opacity : 1}, 5000)
+        return 0;
+    }
+
+
+}
+
+
 $( document ).ready(function() {
-    $("#accomplishments_box").css({ x: '-=100vw' }); 
+    $("#accomplishments_box").css({ x: '-=75vw', opacity : 0 });
+    $("#work_exp_box").css({ x: '+=75vw', opacity : 0 }); 
 });
