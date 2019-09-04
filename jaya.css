@@ -7,6 +7,7 @@ html{
     max-width: 92%;
     font-size: 28px;
     margin: 0 auto;
+    overflow-x: hidden;
 }
 
 body{
@@ -71,6 +72,7 @@ header .menu_option a:hover{
     #image_block{
         display: none;        
     }
+    
   }
 
 
