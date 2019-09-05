@@ -1,7 +1,5 @@
 
-*{
-    max-width: 92%;
-} 
+ 
   
 html{
     font-family: 'Vollkorn', serif;
@@ -14,12 +12,9 @@ html{
 
 body{
     margin: 0;
-    max-width: 100%;
+    max-width: 92%;
     margin: 0 auto;
-    overflow-x: hidden;
 }
-
-
 /* Means everything in header displays as inline block. */
 header *{
     display: inline-block;
