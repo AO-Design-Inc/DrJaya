@@ -5,7 +5,7 @@ html{
     font-family: 'Vollkorn', serif;
     font-family: 'Roboto', sans-serif;
     max-width:  100%;
-    font-size: 28px;
+    font-size: calc(0.5rem + 1.5vw);
     margin: 0 auto;
     overflow-x: hidden;
 }
@@ -227,6 +227,7 @@ header .menu_option a:hover{
 #pitch_deco{
     top: 45em;
     left: 65%;
+    max-width: 25vw;
 }
 
 .background_deco{
@@ -238,14 +239,14 @@ header .menu_option a:hover{
     top: 41em;
     left: 5%;
     size: 30%;
-
+    max-width: 50vw;
 }
 
 #main_deco{
     top: 6em;
     left: 0;
     right: 0;
-    width: 75%;
+    width: 5em;
     opacity: 0;
     margin: 0 auto;
 }
@@ -414,6 +415,7 @@ button img{
     margin-left: auto;
     margin-right: auto;
     display: block;
+    max-width: 100%;
 }
 
 #skills{
