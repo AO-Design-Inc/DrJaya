@@ -71,7 +71,7 @@ header .menu_option a:hover{
 #main_img{
     position: relative;
     width : 60%;
-    scale: 300;
+    /*scale: 300;*/
     display: inline-flex;
     transform: translate(0,0);
     transform: scale(1.25,1.25);
