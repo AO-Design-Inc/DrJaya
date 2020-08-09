@@ -39,7 +39,7 @@ header{
 /* Controls Dr.Jayalakshmi Title */
 header h1{
     margin: 0;
-    font-size: 42px;
+    font-size: 56px;
     font-family: 'Vollkorn', serif;
 }
 
@@ -67,6 +67,11 @@ header .menu_option a:hover{
     width: 90%;
     margin: auto auto;
 }
+#pitch{
+    font-size: 56px;
+    text-align: center;
+    font-family: 'Vollkorn', serif;
+}
 
 #main_img{
     position: relative;
@@ -77,11 +82,25 @@ header .menu_option a:hover{
     transform: scale(1.25,1.25);
     z-index: 1;
 }
+#contact{
+    width: 100vw;
+    background-color: #00d3948e;
+    font-family: 'Vollkorn', serif;
+}
 
 @media only screen and (max-width: 1000px) {
 
-    #image_block{
-        display: none;        
+    #blurb_sec_1,#blurb_sec_2,#speech_bubble {
+        display:none;
+    }
+    #main_img{
+        width: 85%
+    }
+    #pitch{
+        font-size: 31px;
+    }
+    header h1{
+        font-size: 31px;
     }
     
   }
@@ -216,13 +235,6 @@ header .menu_option a:hover{
     display: block;
     margin-bottom: 2em;
    }
-
-
-#pitch{
-    font-size: 56px;
-    text-align: center;
-    font-family: 'Vollkorn', serif;
-}
 
 #pitch_deco{
     top: 45em;
@@ -360,6 +372,7 @@ hr{
 
 
 #form_container{
+    
     width: 80%;
     margin: 0 auto;
 }
@@ -434,7 +447,7 @@ footer{
     height: 100px;
     margin-left: calc(-50vw + 50%);
     padding: 0;
-    margin-top: 10%;
+    /* margin-top: 0%; */
     border-bottom: 0;
 }
 
