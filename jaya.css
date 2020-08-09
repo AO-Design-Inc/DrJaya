@@ -43,6 +43,9 @@ header h1{
     font-family: 'Vollkorn', serif;
 }
 
+#menu_options{
+	float: right
+}
 
 header .menu_option{
     float: right;
