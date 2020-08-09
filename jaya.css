@@ -85,7 +85,9 @@ header .menu_option a:hover{
 #con{
     margin-top: 10%;
     margin-bottom: 10%;
+    width: 100%;
     align-items: center;
+    display: flex;
     justify-content: center;
     font-family: 'Vollkorn', serif;
 }
