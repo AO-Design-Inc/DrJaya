@@ -94,18 +94,46 @@ header .menu_option a:hover{
 
 @media only screen and (max-width: 1000px) {
 
-    #blurb_sec_1,#blurb_sec_2,#speech_bubble {
+    #blurb_sec_1,#blurb_sec_2,#speech_bubble, #image_block > * {
         display:none;
     }
     #main_img{
+	display: block;
+	margin: auto auto;
+	justify-content:center;align-items:center;
         width: 85%
     }
     #pitch{
         font-size: 31px;
     }
     header h1{
+	display: flex;
+	width: 100%;
+	margin: auto auto;
+	justify-content: center;
+	align-items: center;
         font-size: 31px;
     }
+    #menu_options{
+	    display: flex;
+	    width: 100%;
+	    margin: 0 auto;
+	    margin-bottom: 10%;
+	    justify-content: center;
+	    align-items: center;
+    }
+
+    header div{
+	    display: flex;
+	    align_items: center;
+	    justify-content: center
+    }
+    .address{
+	    display: block;
+	    align_items: center;
+	    justify-content: center;
+    }
+
     
   }
 
