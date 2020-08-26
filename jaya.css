@@ -60,10 +60,9 @@ header .menu_option a{
 }
 
 header .menu_option a:hover{
-    color: grey;
+    color: #1bb687;
     text-decoration: inherit;
 }
-
 
 #image_block{
     margin-bottom: 4em;
@@ -128,7 +127,7 @@ header .menu_option a:hover{
 
     header div{
 	    display: flex;
-	    align_items: center;
+	    align-items: center;
 	    justify-content: center
     }
   }
